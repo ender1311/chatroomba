@@ -17,6 +17,13 @@ export function CommentForm({
         onSubmit(message).then(() => setMessage(""))
     }
 
+    function handleKeyDown(e) {
+        if (e.key === "Enter" && !e.shiftKey) {
+          e.preventDefault();
+          handleSubmit(e);
+        }
+      }
+
     return (
         <form onSubmit={handleSubmit}>
             <div className="comment-form-row">
@@ -26,6 +33,7 @@ export function CommentForm({
                 className="message-input" 
                 // autofocus will scroll webpage to the text area for inputting new comment
                 autoFocus={autoFocus}
+                onKeyDown={handleKeyDown}
                 />
 
                 <button 

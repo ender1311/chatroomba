@@ -34,7 +34,7 @@ const prisma = new PrismaClient()
 
 // define current user variable. hard code it for now.
 const CURRENT_USER_ID = (
-    await prisma.user.findFirst({ where: { name: "Sally" } })
+    await prisma.user.findFirst({ where: { name: "Abby" } })
 ).id
 
 
@@ -48,7 +48,7 @@ const COMMENT_SELECT_FIELDS= {
         // checks about user information
         select: {
             id: true,
-            name: true
+            name: true,
         },
     },
 }
@@ -58,7 +58,9 @@ app.get("/posts", async (req,res) => {
         prisma.post.findMany({ 
             select: {
                 id:true,
-                title:true
+                title:true,
+                image: true,
+                summary: true,
                 },
             })
     )

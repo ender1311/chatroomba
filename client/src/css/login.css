@@ -14,13 +14,13 @@
   body {
     margin: 0;
     /* background-color: black */
-    background-image: url("../../public/imgs/sebastian-pandelache-j4o87vrduLg-unsplash.jpg");
+    /* background-image: url("../../public/imgs/circuit.jpg"); */
     background-size: cover;
     background-position: center;
   }
   
   .full-screen-container {
-    
+    background-image: url("../../public/imgs/sebastian-pandelache-j4o87vrduLg-unsplash.jpg");
     height: 80vh;
     width: 80vw;
     background-size: cover;

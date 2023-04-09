@@ -79,7 +79,7 @@ export function Comment({id, message, user, createdAt, likeCount, likedByMe}) {
     return (<>
     <div className="comment">
         <div className="header">
-            <span className="name">{user.name}</span>
+            <span className="name" style={{color:"#ff5765", fontSize:"0.9rem"}}>{user.name}</span>
             <span className="date">{dateFormatter.format(Date.parse(createdAt))}</span>
         
         </div>
@@ -113,8 +113,9 @@ export function Comment({id, message, user, createdAt, likeCount, likedByMe}) {
                     isActive={isReplying}
                     Icon={FaReply} 
                     aria-label={isReplying ? "Cancel Reply" : "Reply"}
-                />
-
+                >
+                    Reply
+                </IconBtn>
                 {/* Restrict user's ability to edit or delete comments created by other users */}
                 {user.id === currentUser.id && (
                     <>
@@ -123,14 +124,18 @@ export function Comment({id, message, user, createdAt, likeCount, likedByMe}) {
                     onClick={() => setIsEditing(prev => !prev)} 
                     isActive={isEditing}
                     Icon={FaEdit} 
-                    aria-label={isEditing ? "Cancel Edit" : "Edit"} />
+                    aria-label={isEditing ? "Cancel Edit" : "Edit"} >
+                    Edit
+                </IconBtn>
                 <IconBtn 
                 //prevents delete button from being clicked twice which could cause issues
                     disabled={deleteCommentFn.loading}
                     onClick={onCommentDelete}
                     Icon={FaTrash} 
                     aria-label="Delete" 
-                    color="danger"/>
+                    color="danger">
+                    Delete
+                </IconBtn>
 
                     </>
                     )}
@@ -138,7 +143,6 @@ export function Comment({id, message, user, createdAt, likeCount, likedByMe}) {
 
 
             </div>
-// if user tries to delete a comment that they did not create, display error message
 
             {/* Inform user that they don't have authority to delete another user's comment */}
             {deleteCommentFn.error && (
