@@ -84,6 +84,8 @@ Server accepts HTTP requests from client side and retrieves data from the postgr
 * [![React][React.js]][React-url]
 * [![React Router][React-router]][React-router-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![PostgreSql][postgresql.org]][postgresql-url]
+* [![Prisma][prisma.io]][prisma-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -268,3 +270,7 @@ Backend server code: https://github.com/ender1311/chatroomba/blob/main/server/se
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+[postgresql.org]: https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white
+[postgresql-url]: https://postgresql.org
+[prisma.io]: https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white
+[prisma-url]: https://prisma.io
