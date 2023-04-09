@@ -12,8 +12,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://ender1311.github.io/minions_store/dist/">
-    <img src="https://github.com/ender1311/minions_store/blob/main/imgs/minions/Bob.jpg" alt="Logo" width="80" height="80">
+  <a href="https://github.com/ender1311/chatroomba">
+    <img src="https://raw.githubusercontent.com/ender1311/ender1311.github.io/main/imgs/chatroomba_login.jpg" alt="Logo" width="300">
   </a>
 
 <h3 align="center">chatRoomb online forum</h3>
@@ -220,7 +220,7 @@ Backend server code: https://github.com/ender1311/chatroomba/blob/main/server/se
 [license-url]: https://github.com/ender1311/minions_store/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/danluk1311
-[product-screenshot]: https://ender1311.github.io/coding_central/imgs/ecommerce_demo.png
+[product-screenshot]: https://raw.githubusercontent.com/ender1311/ender1311.github.io/main/imgs/chatroomba_comments.jpg
 [payment-screenshot]: https://ender1311.github.io/coding_central/imgs/stripe_payment.png
 [product-demo]:https://ender1311.github.io/coding_central/imgs/eCommerce_demo2.gif
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
