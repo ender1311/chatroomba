@@ -208,16 +208,16 @@ Backend server code: https://github.com/ender1311/chatroomba/blob/main/server/se
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/ender1311/minions_store.svg?style=for-the-badge
-[contributors-url]: https://github.com/ender1311/minions_store/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ender1311/minions_store.svg?style=for-the-badge
-[forks-url]: https://github.com/ender1311/minions_store/network/members
-[stars-shield]: https://img.shields.io/github/stars/ender1311/minions_store.svg?style=for-the-badge
-[stars-url]: https://github.com/ender1311/minions_store/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ender1311/minions_store.svg?style=for-the-badge
-[issues-url]: https://github.com/ender1311/minions_store/issues
-[license-shield]: https://img.shields.io/github/license/ender1311/minions_store.svg?style=for-the-badge
-[license-url]: https://github.com/ender1311/minions_store/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/ender1311/chatroomba.svg?style=for-the-badge
+[contributors-url]: https://github.com/ender1311/chatroomba/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ender1311/chatroomba.svg?style=for-the-badge
+[forks-url]: https://github.com/ender1311/chatroomba/network/members
+[stars-shield]: https://img.shields.io/github/stars/ender1311/chatroomba.svg?style=for-the-badge
+[stars-url]: https://github.com/ender1311/chatroomba/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ender1311/chatroomba.svg?style=for-the-badge
+[issues-url]: https://github.com/ender1311/chatroomba/issues
+[license-shield]: https://img.shields.io/github/license/ender1311/chatroomba.svg?style=for-the-badge
+[license-url]: https://github.com/ender1311/chatroomba/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/danluk1311
 [product-screenshot]: https://raw.githubusercontent.com/ender1311/ender1311.github.io/main/imgs/chatroomba_comments.jpg
