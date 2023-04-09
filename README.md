@@ -13,13 +13,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/ender1311/chatroomba">
-    <img src="https://raw.githubusercontent.com/ender1311/ender1311.github.io/main/imgs/chatroomba_login.jpg" alt="Logo" width="300">
+    <img src="https://raw.githubusercontent.com/ender1311/ender1311.github.io/main/imgs/chatroomba_login.jpg" alt="Logo" width="400">
   </a>
 
-<h3 align="center">chatRoomb online forum</h3>
+<p align="center" style="font-size:38px">chatRoomba</p>
 
-  <p align="center">
-    chatRoomb online forum
+  <p align="center" style="font-size:22px">
+    Online Forum
     <br />
     <a href="https://github.com/ender1311/chatroomba"><strong>Explore the docs »</strong></a>
     <br />
