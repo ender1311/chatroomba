@@ -26,7 +26,7 @@ export function Login() {
  
       <div className="full-screen-container">
         <div className="login-container">
-          <h1 className="login-title">Welcome</h1>
+          <h1 className="login-title">Welcome to ChatRoomba</h1>
           <form className="form" onSubmit={handleSubmit}>
             <div className="input-group success">
               <label htmlFor="name">Name</label>

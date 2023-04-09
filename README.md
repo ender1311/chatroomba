@@ -16,7 +16,7 @@
     <img src="https://raw.githubusercontent.com/ender1311/ender1311.github.io/main/imgs/chatroomba_login.jpg" alt="Logo" width="400">
   </a>
 
-<p align="center" style="font-size:38px">chatRoomba</p>
+<p align="center" style="font-size:38px">ChatRoomba</p>
 
   <p align="center" style="font-size:22px">
     Online Forum
@@ -105,20 +105,47 @@ To get a local copy up and running follow these simple example steps.
    git clone https://github.com/ender1311/chatroomba.git
    ```
 2. Install NPM packages
-   
+   in server directory:
    ```sh
-   npm i
+   npm i --save-dev prisma nodemon
+   npm i @prisma/client
+   npx prisma initx
+   npx prisma db seed
+   npm i fastify dotenv @fastify/cookie @fastify/cors @fastify/sensible
    ```
-3. Start the client side app from the directory: /client
-   ```js
-   npm run start
+  npx prisma db seed (Load some initial data into server database)
+  dotenv allows server to pull in environment variables from .env file
+
+  create your .env file with proper environment variables
+  @fastify/cookie allows for user authentication
+  @fastify/cors allows communications between client and server
+  @fastify/sensible is for sending errors to user easily
+
+3. in client directory
+   ```sh
+   npm install
+   npm i axios
    ```
 
-4. Start a second server from the directory: /server
+  npm install to install all necessary node_modules
+
+4. start your own postgresql database to interact with server.js and prisma
+   https://www.prisma.io/dataguide/postgresql/5-ways-to-host-postgresql#installing-postgresql-on-your-local-development-computer
+
+
+
+5. Start a server from the directory: /server
    start server
    ```js
-   node server.js
+   npm run devStart
+   or 
+   node server.js 
    ```
+
+6. In a separate terminal from the server, start the client side app from the directory: /client
+  ```js
+  npm run start
+  ```
 
 ### Info
 Prisma schema was used for integrating database with server
