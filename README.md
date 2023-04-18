@@ -111,7 +111,7 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    npm i --save-dev prisma nodemon
    npm i @prisma/client
-   npx prisma initx
+   npx prisma init
    npx prisma db seed
    npm i fastify dotenv @fastify/cookie @fastify/cors @fastify/sensible
    ```
